@@ -5,7 +5,10 @@ Livin' on the edge, Ma!
 `yarn install`
 
 ## Run Snowpack after installing anything
-`npx snowpack --include "src/**/*.ts"`
+`npx snowpack`
+
+(not sure why this way isn't picking up xstate...)
+`npx snowpack --include "src/**/*.js"`
 
 ## Start dev server
 `npx tsc -w`
